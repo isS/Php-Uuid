@@ -20,10 +20,10 @@ UUID version constants where each constant represents a specific UUID version
 
 UUID format constants
 
-• FMT_BYTE is the default and returns a array of bytes that represents the 128-bit UUID.
-• FMT_FIELD returns a associative array with individual fields as the format specified in RFC4122.
-• FMT_STRING returns the familiar ASCII representation of a UUID (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxx).
-• FMT_BINARY returns a raw 128-bit binary representation of the UUID.
+* FMT_BYTE is the default and returns a array of bytes that represents the 128-bit UUID.
+* FMT_FIELD returns a associative array with individual fields as the format specified in RFC4122.
+* FMT_STRING returns the familiar ASCII representation of a UUID (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxx).
+* FMT_BINARY returns a raw 128-bit binary representation of the UUID.
 
 The convert method can be used to convert between these representations.
 
